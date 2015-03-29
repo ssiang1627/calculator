@@ -1,0 +1,62 @@
+body, div, a {
+    padding:0;
+    margin:0;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#calculator {
+	background: -webkit-gradient(linear, left top, left bottom, from(#FF8C00), to(#FFF8DC));
+	background: -moz-linear-gradient(top, #FF8C00, #FFF8DC);
+	width: 372px;
+	height: 570px;
+	border: 3px #D2691E solid;
+	margin: 10px auto;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+#screen {
+    height: 78px;
+    width: 354px;
+    margin:auto;
+    background-color:white;
+    margin-bottom: 5px;
+    text-align: right;
+    font-size: 78px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+#numbers, #operators {
+	margin: auto;	
+}
+
+#operators button {
+	width: 62px;
+	height: 62px;
+	float: left;
+	color: black;
+	text-align: center;
+	font-size: 36px;
+	padding: 2px;
+	margin: 5px 6px;
+	background-color: white;
+	border: 3px #D2691E solid;
+	border-radius: 20px;
+}
+
+#numbers button {
+	width: 94px;
+	height: 94px;
+	float: left;
+	color: black;
+	text-align: center;
+	font-size: 48px;
+	padding: 12px;
+	margin: 5px 15px;
+	background-color: white;
+	border: 3px #D2691E solid;
+	border-radius: 40px;
+}
+
+button{cursor: pointer;}
